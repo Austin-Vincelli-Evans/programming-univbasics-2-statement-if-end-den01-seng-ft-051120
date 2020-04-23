@@ -1,6 +1,6 @@
-run_code_inside = true
-puts "code before if...end"
-if run_code_inside
-  puts "code inside"
+
+if Time.now.to_i % 2 == 0
+  puts "Even!"
+else
+  puts "Odd!"
 end
-puts "code after if...end"
